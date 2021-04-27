@@ -1,0 +1,48 @@
+.feedbackBtnWrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .feedbackBtn {
+    border: 1px solid #000000;
+    padding: 14px 40px;
+    font-size: 18px;
+    font-family: inherit;
+    line-height: 1.333;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.feedbackBtn:not(:last-child) {
+  margin-right: 20px;
+}
+  .feedbackBtn:first-child {
+    background: rgb(0, 90, 8);
+  }
+  .feedbackBtn:first-child:hover {
+    border: 1px solid rgb(57, 133, 168);
+    color: #8f8f8f;
+    background: transparent;
+  }
+  .feedbackBtn:nth-child(2) {
+    background: rgb(214, 200, 2);
+  }
+  .feedbackBtn:nth-child(2):hover {
+    border: 1px solid rgb(57, 133, 168);
+    color: #8f8f8f;
+    background: transparent;
+  }
+  .feedbackBtn:last-child {
+    background: rgb(112, 6, 2);
+  }
+  .feedbackBtn:last-child:hover {  
+    border: 1px solid rgb(57, 133, 168);
+    color: #8f8f8f;
+    background: transparent;
+  }
+  .feedbackBtn:hover {
+    background-color: rgb(6, 111, 182);
+    color: white;
+  }

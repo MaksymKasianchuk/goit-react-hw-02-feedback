@@ -1,0 +1,12 @@
+  
+.Section {
+    padding: 40px 0px;
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .sectionTitle {
+    margin-bottom: 30px;
+    color: rgba(19, 163, 247, 0.692);
+    font-size: 28px;
+  }
